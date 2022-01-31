@@ -10,7 +10,7 @@ id int primary key,
 name varchar2(100),
 authorid int foreign key references id of table author
 createdts datetime
-)*/
+) */
 
 CREATE TABLE POST  (POST_ID INT primary key auto_increment, 
                    POST_NAME varchar(300) not null,
